@@ -54,7 +54,7 @@ export default function SignUp({navigation}) {
 
           <SubmitButton onPress={handleSubmit}>Acessar</SubmitButton>
 
-          <SignLink onPress={() => navigation.navigate('SignUp')}>
+          <SignLink onPress={() => navigation.navigate('SignIn')}>
             <SignLinkText>Já possuo conta</SignLinkText>
           </SignLink>
         </Form>
