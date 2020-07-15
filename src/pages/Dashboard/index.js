@@ -13,7 +13,7 @@ export default function Dashboard() {
   useEffect(() => {
     async function loadAppointments() {
       const response = await api.get('/appointments');
-      // console.tron.log('re', response);
+
       setAppointments(response.data);
     }
     loadAppointments();
